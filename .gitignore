@@ -1,0 +1,5 @@
+.build/
+.claude/
+TilePilot.app/
+AUDIT-*.md
+TilePilot-PRD.md

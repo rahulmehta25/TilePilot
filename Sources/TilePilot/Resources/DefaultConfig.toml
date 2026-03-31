@@ -1,0 +1,132 @@
+# TilePilot Configuration
+# Docs: https://github.com/rahulmehta25/TilePilot#configuration
+
+# Common bundle IDs:
+# Arc Browser ........... company.thebrowser.Browser
+# Chrome ................ com.google.Chrome
+# Safari ................ com.apple.Safari
+# Firefox ............... org.mozilla.firefox
+# Cursor ................ com.todesktop.230313mzl4w4u92
+# VS Code ............... com.microsoft.VSCode
+# Windsurf .............. com.codeium.windsurf
+# iTerm2 ................ com.googlecode.iterm2
+# Terminal.app .......... com.apple.Terminal
+# Slack ................. com.tinyspeck.slackmacgap
+# Discord ............... com.hnc.Discord
+# Spotify ............... com.spotify.client
+# Linear ................ com.linear
+# Notion ................ notion.id
+# Figma ................. com.figma.Desktop
+# Obsidian .............. md.obsidian
+# Claude ................ com.anthropic.claude
+# ChatGPT ............... com.openai.chat
+# Messages .............. com.apple.MobileSMS
+# Mail .................. com.apple.mail
+# Calendar .............. com.apple.iCal
+# Notes ................. com.apple.Notes
+# Finder ................ com.apple.finder
+# Preview ............... com.apple.Preview
+# Xcode ................. com.apple.dt.Xcode
+#
+# To find any app's bundle ID, run in Terminal:
+#   osascript -e 'id of app "App Name"'
+
+[general]
+gap = 8
+animate = false
+animation_duration_ms = 200
+
+# ──────────────────────────────────────
+# LAYOUTS
+# ──────────────────────────────────────
+
+[layout.deep-work]
+rows = 2
+cols = 4
+hotkey = "cmd+shift+1"
+
+[[layout.deep-work.tiles]]
+app = "com.todesktop.230313mzl4w4u92"
+label = "Cursor"
+row = 0
+col = 0
+row_span = 2
+col_span = 2
+
+[[layout.deep-work.tiles]]
+app = "com.anthropic.claude"
+label = "Claude"
+row = 0
+col = 2
+row_span = 1
+col_span = 2
+
+[[layout.deep-work.tiles]]
+app = "com.googlecode.iterm2"
+label = "Terminal"
+row = 1
+col = 2
+row_span = 1
+col_span = 2
+
+# ──────────────────────────────────────
+
+[layout.founder-mode]
+rows = 2
+cols = 2
+hotkey = "cmd+shift+2"
+
+[[layout.founder-mode.tiles]]
+app = "com.linear"
+label = "Linear"
+row = 0
+col = 0
+row_span = 1
+col_span = 1
+
+[[layout.founder-mode.tiles]]
+app = "company.thebrowser.Browser"
+label = "Arc"
+row = 0
+col = 1
+row_span = 1
+col_span = 1
+
+[[layout.founder-mode.tiles]]
+app = "com.tinyspeck.slackmacgap"
+label = "Slack"
+row = 1
+col = 0
+row_span = 1
+col_span = 1
+
+[[layout.founder-mode.tiles]]
+app = "com.spotify.client"
+label = "Spotify"
+row = 1
+col = 1
+row_span = 1
+col_span = 1
+
+# ──────────────────────────────────────
+
+[layout.chill]
+rows = 1
+cols = 2
+hotkey = "cmd+shift+3"
+
+[[layout.chill.tiles]]
+app = "com.spotify.client"
+label = "Spotify"
+row = 0
+col = 0
+row_span = 1
+col_span = 1
+
+[[layout.chill.tiles]]
+app = "company.thebrowser.Browser"
+label = "Arc"
+row = 0
+col = 1
+row_span = 1
+col_span = 1
