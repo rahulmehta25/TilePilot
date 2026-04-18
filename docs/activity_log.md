@@ -55,3 +55,13 @@
 - Created Sources/TilePilot/UI/HotkeyRecorderView.swift: Key combo recorder with NSEvent capture
 - Created Sources/TilePilot/Utilities/AXExtensions.swift, CGRectExtensions.swift, Logger.swift
 - Created Resources/DefaultConfig.toml: 3 starter layouts with bundle ID reference
+
+## 2026-04-18 13:02 EDT
+
+### User Prompt
+"Read CLAUDE.md, then DELTA.md in ~/Desktop/Projects/portfolio-upgrade/tilepilot/. ... Start at the first incomplete item in DELTA.md's 'Delta items (ordered)' section."
+
+### Actions Taken
+- Confirmed no App Store listing and no GitHub release for TilePilot; current README messaging (GitHub Releases + Homebrew cask) already matches the DELTA fallback, no change needed for item 1
+- Logged out-of-scope or user-input-required items (2, 4, 5, 6, 7, 8) to ~/Desktop/Projects/portfolio-upgrade/_logs/tilepilot.scope-requests.md
+- Refreshed README.md per DELTA item 3: trimmed from 271 to 144 lines, kept real declarative-TOML framing and actual keybinds, shortened hero and FAQ, fixed repo URL references
