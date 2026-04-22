@@ -25,15 +25,7 @@ Think of it as infrastructure-as-code for your desktop.
 
 ## Install
 
-Homebrew:
-
-```bash
-brew install --cask tilepilot
-```
-
-Or download the signed, notarized DMG from [GitHub Releases](https://github.com/rahulmehta25/TilePilot/releases).
-
-Build from source:
+Build from source (packaged DMG and Homebrew cask are planned but not yet published):
 
 ```bash
 git clone https://github.com/rahulmehta25/TilePilot.git
